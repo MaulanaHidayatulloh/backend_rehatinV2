@@ -1,7 +1,8 @@
 require("dotenv").config();
 
 // APP
-const BASE_URL = process.env.BASE_URL ?? "http://localhost";
+const BASE_URL =
+  process.env.BASE_URL ?? "https://backend-rehatin-v2.vercel.app/";
 const PORT = process.env.PORT ?? 8000;
 
 // DATABASE
